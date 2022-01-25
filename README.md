@@ -13,3 +13,8 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+to download the project dependencies:
+`npm i`
+to run the scripts locally for testing purposes:
+to deploy the contracts to a testnet(rinkeby):
+to verify the contract on etherscan:
