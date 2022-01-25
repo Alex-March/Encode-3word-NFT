@@ -17,9 +17,9 @@ contract MyEpicNFT is ERC721URIStorage {
   string svgPartOne = "<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMinYMin meet' viewBox='0 0 350 350'><style>.base { fill: white; font-family: serif; font-size: 24px; }</style><rect width='100%' height='100%' fill='";
   string svgPartTwo = "'/><text x='50%' y='50%' class='base' dominant-baseline='middle' text-anchor='middle'>";
 
-  string[] firstWords = ["Stress", "Hike", "Fastidious", "Court", "Replace", "Eternal"];
-  string[] secondWords = ["Truck", "Session", "Red", "Whole", "Sailor", "Provision"];
-  string[] thirdWords = ["Depression", "Drive", "Snack", "Executive", "Wealth", "Painter"];
+  string[] firstWords = ["Amazing", "Remarkable", "Spectacular", "Phenomenal", "Extraordinary", "Amazeballs"];
+  string[] secondWords = ["Educational", "Enlightening", "Illuminating", "Innovative", "Inspirational", "Impactful"];
+  string[] thirdWords = ["Fun", "Amusing", "Entertaining", "Delightful", "Enjoyable", "Gratifying"];
 
   // Get fancy with it! Declare a bunch of colors.
   string[] colors = ["red", "#08C2A8", "black", "yellow", "blue", "green"];
