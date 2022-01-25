@@ -1,7 +1,9 @@
 require('@nomiclabs/hardhat-waffle');
 require('dotenv').config();
+require("@nomiclabs/hardhat-etherscan");
 
-const { STAGING_ALCHEMY_KEY, PRIVATE_KEY, PROD_ALCHEMY_KEY } = process.env;
+
+const { STAGING_ALCHEMY_KEY, PRIVATE_KEY, PROD_ALCHEMY_KEY, ETHERSCAN_API } = process.env;
 
 
 // This is a sample Hardhat task. To learn how to create your own go to
@@ -33,4 +35,7 @@ module.exports = {
       accounts: [PRIVATE_KEY],
     },
   },
+  etherscan: {
+    apiKey: ETHERSCAN_API
+  }
 };
